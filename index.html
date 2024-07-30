@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculator</title>
+    <script src="./app.js" defer></script>
+</head>
+<body>
+    <h1>Grade Calculator</h1>
+    <form id="marksForm">
+        <label for="english">English:</label>
+        <input id="english" type="number" placeholder="Enter marks">
+        <br><br>
+        <label for="physics">Physics:</label>
+        <input id="physics" type="number" placeholder="Enter marks">
+        <br><br>
+        <label for="chemistry">Chemistry:</label>
+        <input id="chemistry" type="number" placeholder="Enter marks">
+        <br><br>
+        <label for="biology">Biology:</label>
+        <input id="biology" type="number" placeholder="Enter marks">
+        <br><br>
+        <button type="button" onclick="calculateGrades()">Submit</button>
+    </form>
+    <p id="output"></p>
+</body>
+</html>
